@@ -41,7 +41,7 @@
 
 ----
 ## Demo
-[Equalstyle](http://equalstyle.onepoint.com.tw/styles/equalstyle.css)
+[Equalstyle](http://equalstyle.onepoint.com.tw)
 
 
 ----
