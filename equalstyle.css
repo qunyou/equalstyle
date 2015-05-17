@@ -26,33 +26,6 @@ textarea {
 .table td.txt_right {
   text-align: right;
 }
-.container {
-  margin-right: auto;
-  margin-left: auto;
-}
-.container:before,
-.container:after {
-  content: " ";
-  display: table;
-}
-.container:after {
-  clear: both;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1140px;
-  }
-}
 * {
   box-sizing: border-box;
 }
