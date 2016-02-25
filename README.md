@@ -33,7 +33,16 @@
 
 如果修改為兩欄：
 
-    .eqs3
+    .eqs2
+        .column
+        .column
+        .column
+        .column
+
+Responsive
+> 一般畫面四欄，手機一欄，平板兩欄
+
+    .eqs4.enlarge-xs.enlarge2-sm
         .column
         .column
         .column
@@ -42,8 +51,3 @@
 ----
 ## Demo
 [Equalstyle](http://equalstyle.onepoint.com.tw)
-
-
-----
-## 如何使用
-直接下載後引入 css 檔

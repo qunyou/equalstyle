@@ -1,0 +1,13 @@
+.static_side {
+  position: absolute;
+  width: 150px;
+}
+.static_side + .static_fill {
+  margin-left: 150px;
+}
+.deep {
+  padding: 10px 20px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
