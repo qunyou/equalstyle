@@ -341,6 +341,169 @@ ul[class*="eqs"] {
 .bottom_20 > .full {
   margin-bottom: 20px;
 }
+img {
+  vertical-align: middle;
+  max-width: 100%;
+}
+textarea {
+  resize: vertical;
+}
+.txt-left .txt-leftleft {
+  text-align: left;
+}
+.txt-left .txt-centerleft {
+  text-align: center;
+}
+.txt-left .txt-rightleft {
+  text-align: right;
+}
+.txt-left .table th.txt-leftleft,
+.txt-left .table td.txt-leftleft {
+  text-align: left;
+}
+.txt-left .table th.txt-centerleft,
+.txt-left .table td.txt-centerleft {
+  text-align: center;
+}
+.txt-left .table th.txt-rightleft,
+.txt-left .table td.txt-rightleft {
+  text-align: right;
+}
+.txt-center .txt-leftcenter {
+  text-align: left;
+}
+.txt-center .txt-centercenter {
+  text-align: center;
+}
+.txt-center .txt-rightcenter {
+  text-align: right;
+}
+.txt-center .table th.txt-leftcenter,
+.txt-center .table td.txt-leftcenter {
+  text-align: left;
+}
+.txt-center .table th.txt-centercenter,
+.txt-center .table td.txt-centercenter {
+  text-align: center;
+}
+.txt-center .table th.txt-rightcenter,
+.txt-center .table td.txt-rightcenter {
+  text-align: right;
+}
+.txt-right .txt-leftright {
+  text-align: left;
+}
+.txt-right .txt-centerright {
+  text-align: center;
+}
+.txt-right .txt-rightright {
+  text-align: right;
+}
+.txt-right .table th.txt-leftright,
+.txt-right .table td.txt-leftright {
+  text-align: left;
+}
+.txt-right .table th.txt-centerright,
+.txt-right .table td.txt-centerright {
+  text-align: center;
+}
+.txt-right .table th.txt-rightright,
+.txt-right .table td.txt-rightright {
+  text-align: right;
+}
+.table th.txt-left .txt-leftleft,
+.table td.txt-left .txt-leftleft {
+  text-align: left;
+}
+.table th.txt-left .txt-centerleft,
+.table td.txt-left .txt-centerleft {
+  text-align: center;
+}
+.table th.txt-left .txt-rightleft,
+.table td.txt-left .txt-rightleft {
+  text-align: right;
+}
+.table th.txt-left .table th.txt-leftleft,
+.table td.txt-left .table th.txt-leftleft,
+.table th.txt-left .table td.txt-leftleft,
+.table td.txt-left .table td.txt-leftleft {
+  text-align: left;
+}
+.table th.txt-left .table th.txt-centerleft,
+.table td.txt-left .table th.txt-centerleft,
+.table th.txt-left .table td.txt-centerleft,
+.table td.txt-left .table td.txt-centerleft {
+  text-align: center;
+}
+.table th.txt-left .table th.txt-rightleft,
+.table td.txt-left .table th.txt-rightleft,
+.table th.txt-left .table td.txt-rightleft,
+.table td.txt-left .table td.txt-rightleft {
+  text-align: right;
+}
+.table th.txt-center .txt-leftcenter,
+.table td.txt-center .txt-leftcenter {
+  text-align: left;
+}
+.table th.txt-center .txt-centercenter,
+.table td.txt-center .txt-centercenter {
+  text-align: center;
+}
+.table th.txt-center .txt-rightcenter,
+.table td.txt-center .txt-rightcenter {
+  text-align: right;
+}
+.table th.txt-center .table th.txt-leftcenter,
+.table td.txt-center .table th.txt-leftcenter,
+.table th.txt-center .table td.txt-leftcenter,
+.table td.txt-center .table td.txt-leftcenter {
+  text-align: left;
+}
+.table th.txt-center .table th.txt-centercenter,
+.table td.txt-center .table th.txt-centercenter,
+.table th.txt-center .table td.txt-centercenter,
+.table td.txt-center .table td.txt-centercenter {
+  text-align: center;
+}
+.table th.txt-center .table th.txt-rightcenter,
+.table td.txt-center .table th.txt-rightcenter,
+.table th.txt-center .table td.txt-rightcenter,
+.table td.txt-center .table td.txt-rightcenter {
+  text-align: right;
+}
+.table th.txt-right .txt-leftright,
+.table td.txt-right .txt-leftright {
+  text-align: left;
+}
+.table th.txt-right .txt-centerright,
+.table td.txt-right .txt-centerright {
+  text-align: center;
+}
+.table th.txt-right .txt-rightright,
+.table td.txt-right .txt-rightright {
+  text-align: right;
+}
+.table th.txt-right .table th.txt-leftright,
+.table td.txt-right .table th.txt-leftright,
+.table th.txt-right .table td.txt-leftright,
+.table td.txt-right .table td.txt-leftright {
+  text-align: left;
+}
+.table th.txt-right .table th.txt-centerright,
+.table td.txt-right .table th.txt-centerright,
+.table th.txt-right .table td.txt-centerright,
+.table td.txt-right .table td.txt-centerright {
+  text-align: center;
+}
+.table th.txt-right .table th.txt-rightright,
+.table td.txt-right .table th.txt-rightright,
+.table th.txt-right .table td.txt-rightright,
+.table td.txt-right .table td.txt-rightright {
+  text-align: right;
+}
+.width-auto {
+  width: auto !important;
+}
 @media (max-width: 480px) {
   .enlarge-xs > [class*="column"],
   .enlarge-xs > .fill {
@@ -438,6 +601,33 @@ ul[class*="eqs"] {
   }
 }
 @media (min-width: 480px) {
+  .txt-left-xs {
+    text-align: left;
+  }
+  .txt-center-xs {
+    text-align: center;
+  }
+  .txt-right-xs {
+    text-align: right;
+  }
+  .table th.txt-left-xs,
+  .table td.txt-left-xs {
+    text-align: left;
+  }
+  .table th.txt-center-xs,
+  .table td.txt-center-xs {
+    text-align: center;
+  }
+  .table th.txt-right-xs,
+  .table td.txt-right-xs {
+    text-align: right;
+  }
+  .pull-right-xs {
+    float: right;
+  }
+  .pull-left-xs {
+    float: left;
+  }
   .eqs2 > .column-xs {
     width: 50%;
   }
@@ -776,6 +966,33 @@ ul[class*="eqs"] {
   }
 }
 @media (min-width: 768px) {
+  .txt-left-sm {
+    text-align: left;
+  }
+  .txt-center-sm {
+    text-align: center;
+  }
+  .txt-right-sm {
+    text-align: right;
+  }
+  .table th.txt-left-sm,
+  .table td.txt-left-sm {
+    text-align: left;
+  }
+  .table th.txt-center-sm,
+  .table td.txt-center-sm {
+    text-align: center;
+  }
+  .table th.txt-right-sm,
+  .table td.txt-right-sm {
+    text-align: right;
+  }
+  .pull-right-sm {
+    float: right;
+  }
+  .pull-left-sm {
+    float: left;
+  }
   .eqs2 > .column-sm {
     width: 50%;
   }
@@ -1114,6 +1331,33 @@ ul[class*="eqs"] {
   }
 }
 @media (min-width: 992px) {
+  .txt-left-md {
+    text-align: left;
+  }
+  .txt-center-md {
+    text-align: center;
+  }
+  .txt-right-md {
+    text-align: right;
+  }
+  .table th.txt-left-md,
+  .table td.txt-left-md {
+    text-align: left;
+  }
+  .table th.txt-center-md,
+  .table td.txt-center-md {
+    text-align: center;
+  }
+  .table th.txt-right-md,
+  .table td.txt-right-md {
+    text-align: right;
+  }
+  .pull-right-md {
+    float: right;
+  }
+  .pull-left-md {
+    float: left;
+  }
   .eqs2 > .column-md {
     width: 50%;
   }
@@ -1452,6 +1696,33 @@ ul[class*="eqs"] {
   }
 }
 @media (min-width: 1200px) {
+  .txt-left-lg {
+    text-align: left;
+  }
+  .txt-center-lg {
+    text-align: center;
+  }
+  .txt-right-lg {
+    text-align: right;
+  }
+  .table th.txt-left-lg,
+  .table td.txt-left-lg {
+    text-align: left;
+  }
+  .table th.txt-center-lg,
+  .table td.txt-center-lg {
+    text-align: center;
+  }
+  .table th.txt-right-lg,
+  .table td.txt-right-lg {
+    text-align: right;
+  }
+  .pull-right-lg {
+    float: right;
+  }
+  .pull-left-lg {
+    float: left;
+  }
   .eqs2 > .column-lg {
     width: 50%;
   }

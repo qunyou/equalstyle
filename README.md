@@ -48,6 +48,30 @@ Responsive
         .column
         .column
 
+> 不指定分割欄位數，依內容寬度自動靠左對齊
+
+    .eqs
+        .column
+        .column
+        .column
+        .column
+
+> 設定欄位間距、與下方欄位的間距，可設定的值值 5、10、15、20、25、30
+
+    .eqs2.gutter_10.bottom_20
+        .column
+        .column
+        .column
+        .column
+
+> 一般畫面靠右對齊，手機畫面靠左對齊
+
+    .pull-right-md pull-left-xs
+
+> Bootstrap 的 form-control 寬度 100% 修改為自動寬度
+
+    .form-control.width-auto
+
 ----
 ## Demo
 [Equalstyle](http://equalstyle.onepoint.com.tw)
