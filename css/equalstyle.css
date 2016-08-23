@@ -348,157 +348,25 @@ img {
 textarea {
   resize: vertical;
 }
-.txt-left .txt-leftleft {
+.txt-left {
   text-align: left;
 }
-.txt-left .txt-centerleft {
+.txt-center {
   text-align: center;
 }
-.txt-left .txt-rightleft {
+.txt-right {
   text-align: right;
 }
-.txt-left .table th.txt-leftleft,
-.txt-left .table td.txt-leftleft {
+.table th.txt-left,
+.table td.txt-left {
   text-align: left;
 }
-.txt-left .table th.txt-centerleft,
-.txt-left .table td.txt-centerleft {
+.table th.txt-center,
+.table td.txt-center {
   text-align: center;
 }
-.txt-left .table th.txt-rightleft,
-.txt-left .table td.txt-rightleft {
-  text-align: right;
-}
-.txt-center .txt-leftcenter {
-  text-align: left;
-}
-.txt-center .txt-centercenter {
-  text-align: center;
-}
-.txt-center .txt-rightcenter {
-  text-align: right;
-}
-.txt-center .table th.txt-leftcenter,
-.txt-center .table td.txt-leftcenter {
-  text-align: left;
-}
-.txt-center .table th.txt-centercenter,
-.txt-center .table td.txt-centercenter {
-  text-align: center;
-}
-.txt-center .table th.txt-rightcenter,
-.txt-center .table td.txt-rightcenter {
-  text-align: right;
-}
-.txt-right .txt-leftright {
-  text-align: left;
-}
-.txt-right .txt-centerright {
-  text-align: center;
-}
-.txt-right .txt-rightright {
-  text-align: right;
-}
-.txt-right .table th.txt-leftright,
-.txt-right .table td.txt-leftright {
-  text-align: left;
-}
-.txt-right .table th.txt-centerright,
-.txt-right .table td.txt-centerright {
-  text-align: center;
-}
-.txt-right .table th.txt-rightright,
-.txt-right .table td.txt-rightright {
-  text-align: right;
-}
-.table th.txt-left .txt-leftleft,
-.table td.txt-left .txt-leftleft {
-  text-align: left;
-}
-.table th.txt-left .txt-centerleft,
-.table td.txt-left .txt-centerleft {
-  text-align: center;
-}
-.table th.txt-left .txt-rightleft,
-.table td.txt-left .txt-rightleft {
-  text-align: right;
-}
-.table th.txt-left .table th.txt-leftleft,
-.table td.txt-left .table th.txt-leftleft,
-.table th.txt-left .table td.txt-leftleft,
-.table td.txt-left .table td.txt-leftleft {
-  text-align: left;
-}
-.table th.txt-left .table th.txt-centerleft,
-.table td.txt-left .table th.txt-centerleft,
-.table th.txt-left .table td.txt-centerleft,
-.table td.txt-left .table td.txt-centerleft {
-  text-align: center;
-}
-.table th.txt-left .table th.txt-rightleft,
-.table td.txt-left .table th.txt-rightleft,
-.table th.txt-left .table td.txt-rightleft,
-.table td.txt-left .table td.txt-rightleft {
-  text-align: right;
-}
-.table th.txt-center .txt-leftcenter,
-.table td.txt-center .txt-leftcenter {
-  text-align: left;
-}
-.table th.txt-center .txt-centercenter,
-.table td.txt-center .txt-centercenter {
-  text-align: center;
-}
-.table th.txt-center .txt-rightcenter,
-.table td.txt-center .txt-rightcenter {
-  text-align: right;
-}
-.table th.txt-center .table th.txt-leftcenter,
-.table td.txt-center .table th.txt-leftcenter,
-.table th.txt-center .table td.txt-leftcenter,
-.table td.txt-center .table td.txt-leftcenter {
-  text-align: left;
-}
-.table th.txt-center .table th.txt-centercenter,
-.table td.txt-center .table th.txt-centercenter,
-.table th.txt-center .table td.txt-centercenter,
-.table td.txt-center .table td.txt-centercenter {
-  text-align: center;
-}
-.table th.txt-center .table th.txt-rightcenter,
-.table td.txt-center .table th.txt-rightcenter,
-.table th.txt-center .table td.txt-rightcenter,
-.table td.txt-center .table td.txt-rightcenter {
-  text-align: right;
-}
-.table th.txt-right .txt-leftright,
-.table td.txt-right .txt-leftright {
-  text-align: left;
-}
-.table th.txt-right .txt-centerright,
-.table td.txt-right .txt-centerright {
-  text-align: center;
-}
-.table th.txt-right .txt-rightright,
-.table td.txt-right .txt-rightright {
-  text-align: right;
-}
-.table th.txt-right .table th.txt-leftright,
-.table td.txt-right .table th.txt-leftright,
-.table th.txt-right .table td.txt-leftright,
-.table td.txt-right .table td.txt-leftright {
-  text-align: left;
-}
-.table th.txt-right .table th.txt-centerright,
-.table td.txt-right .table th.txt-centerright,
-.table th.txt-right .table td.txt-centerright,
-.table td.txt-right .table td.txt-centerright {
-  text-align: center;
-}
-.table th.txt-right .table th.txt-rightright,
-.table td.txt-right .table th.txt-rightright,
-.table th.txt-right .table td.txt-rightright,
-.table td.txt-right .table td.txt-rightright {
+.table th.txt-right,
+.table td.txt-right {
   text-align: right;
 }
 .width-auto {
